@@ -1,0 +1,42 @@
+console.log("==================Enum example using Size=====================");
+var Size;
+(function (Size) {
+    Size[Size["Small"] = 0] = "Small";
+    Size[Size["Medium"] = 1] = "Medium";
+    Size[Size["Large"] = 2] = "Large";
+})(Size || (Size = {}));
+console.log(Size.Small);
+console.log(Size.Medium);
+console.log(Size.Large);
+console.log(Size[0]);
+console.log(Size[1]);
+console.log(Size[2]);
+console.log("==================Enum example using Season=====================");
+var Season;
+(function (Season) {
+    Season[Season["Summer"] = 0] = "Summer";
+    Season[Season["Rain"] = 1] = "Rain";
+    Season[Season["Winter"] = 2] = "Winter";
+})(Season || (Season = {}));
+console.log(Season.Summer);
+console.log(Season.Rain);
+console.log(Season.Winter);
+console.log(Season[0]);
+console.log(Season[1]);
+console.log(Season[2]);
+console.log("==================Enum example using Direction=====================");
+var Direction;
+(function (Direction) {
+    Direction[Direction["North"] = 0] = "North";
+    Direction[Direction["East"] = 1] = "East";
+    Direction[Direction["South"] = 2] = "South";
+    Direction[Direction["West"] = 3] = "West";
+})(Direction || (Direction = {}));
+console.log(Direction.North);
+console.log(Direction.East);
+console.log(Direction.South);
+console.log(Direction.West);
+console.log(Direction[0]);
+console.log(Direction[1]);
+console.log(Direction[2]);
+console.log(Direction[3]);
